@@ -1,26 +1,6 @@
-
 .section{
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.banner {
-  color: white;
-  text-align: center;
-  height: 100vh;
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-}
-.banner p {
-  font-size: 25px;
-  font-weight: lighter;
-  color: rgb(255, 255, 255);
-  opacity: 0.6;
-  margin-bottom: 30px;
 }
 
 .card {
@@ -59,11 +39,57 @@
   opacity: 0.1;
 }
 
-.footer{
+.fab {
+  margin: 15px;
+}
+
+.center{
   margin: auto;
   text-align: center;
 }
 
-.fab {
-  margin: 15px;
+.page-width{
+  width: 60%;
+}
+
+.avatar{
+  width: 100px;
+  border-radius: 50px;
+}
+
+
+.body{
+  background-image: url("../Images/map.jpeg")
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    position: absolute;
+}
+
+
+.header-overlay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100
+    padding: 20px;
+    z-index: 99999999999;
+}
+
+.video-margin{
+  margin-top: 350px;
+}
+
+.copy{
+  margin-top: 200px;
+}
+
+
+.landing-page-copy{
+  color: white;
 }
